@@ -43,16 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PeersoonDbDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>PeersoonDbDataSet.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="PersoonDbDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>PersoonDbDataSet.xsd</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
@@ -63,28 +53,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="PeersoonDbDataSet.xsc">
-      <DependentUpon>PeersoonDbDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="PeersoonDbDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>PeersoonDbDataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="PeersoonDbDataSet.xss">
-      <DependentUpon>PeersoonDbDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="PersoonDbDataSet.xsc">
-      <DependentUpon>PersoonDbDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="PersoonDbDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>PersoonDbDataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="PersoonDbDataSet.xss">
-      <DependentUpon>PersoonDbDataSet.xsd</DependentUpon>
-    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
