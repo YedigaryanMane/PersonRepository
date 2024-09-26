@@ -51,7 +51,6 @@ namespace ConsoleApp77
                 {
                     com.Connection = con;
                     com.CommandText = "insert into Persoon values(@Id,@PersoonName,@PersoonSurname,@Age)";
-
                     com.Parameters.Add(new SqlParameter("@Id", person.Id));
                     com.Parameters.Add(new SqlParameter("@PersoonName", person.Name));
                     com.Parameters.Add(new SqlParameter("@PersoonSurname", person.Surname));
@@ -67,7 +66,6 @@ namespace ConsoleApp77
             using (SqlConnection con = new SqlConnection(CONNECTION_STRING))
             {
                 con.Open();
-
                 using (SqlCommand com = new SqlCommand())
                 {
                     com.Connection = con;
